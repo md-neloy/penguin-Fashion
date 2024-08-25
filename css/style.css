@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* font-family: "Roboto", sans-serif; */
+
+:root {
+  --basic: #3c3c3c;
+}
+/* style share */
+.btn a {
+  padding: 18px 34px;
+  background-image: linear-gradient(rgb(164, 188, 70), rgb(133, 160, 25));
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 10px;
+  color:#ffffff;
+}
+.btn a i{
+    margin-right: 5px;
+}
+/* nav section start */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 200px 40px 200px;
+  background-color: rgb(255, 251, 240);
+}
+nav .logo {
+  height: 60px;
+}
+nav .logo img {
+  height: 100%;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+nav ul > li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--basic);
+  padding:10px;
+}
+/* nav section end */
+
+/* banner section start */
+#banner {
+  background-color: rgb(255, 251, 240);
+  padding: 12px 200px 40px 200px;
+}
+#banner .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 150px;
+}
+#banner .container .banner_txt {
+  width: 50%;
+}
+#banner .container .banner_txt h1 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #fabe4c;
+}
+#banner .container .banner_txt h1 span {
+  color: #363958;
+}
+#banner .container .banner_txt p {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  width: 357px;
+  font-size: 1rem;
+  color: var(--basic);
+}
+#banner .container .banner_img {
+    width: 50%;
+    position: relative;
+}
+#banner .container .banner_img .mask{
+    position: absolute;
+    top:-74px;
+    left:20px;
+}
+
+#banner .container .banner_img img {
+  height: 100%;
+}
+/* banner section end */
