@@ -24,6 +24,7 @@ img {
 
 :root {
   --basic: #3c3c3c;
+  --barndColor:rgb(250, 190, 76);
 }
 /* style share */
 .btn a {
@@ -84,7 +85,7 @@ nav ul > li a {
 #banner .container .banner_txt h1 {
   font-size: 80px;
   font-weight: 700;
-  color: #fabe4c;
+  color: var(--barndColor);
 }
 #banner .container .banner_txt h1 span {
   color: #363958;
@@ -110,3 +111,116 @@ nav ul > li a {
   height: 100%;
 }
 /* banner section end */
+
+/* women section start */
+#women{
+  padding: 50px 200px 40px 200px;
+}
+#women .container .womenParent{
+  display: grid;
+  gap:66px;
+  grid-template-columns: repeat(3,1fr);
+} 
+  #women .container h3{
+    font-size: 48px;
+    font-weight: 700;
+    color:var(--basic);
+    margin-bottom: 32px;
+  }
+  #women .container .womenParent .child1{
+    padding:12px 12px 23px 12px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  #women .container .womenParent .child1 h4{
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 17px;
+  }
+  #women .container .womenParent .child1 p{
+    margin-top: 13px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    color:rgb(62, 62, 62);
+  }
+  #women .container .womenParent .child1 h5{
+    font-size: 36px;
+    font-weight: 900;
+    color:var(--barndColor);
+  }
+  #women .container .womenParent .child1 .child2{
+    padding:22px 20px;
+    border-radius: 20px;
+    width: 433px;
+    height: 441px;
+    background: rgb(241, 241, 241);
+  }
+  #women .container .womenParent .child1 .child2 img{
+    height: 100%;
+  }
+  #women .container .womenParent .child1 .img2{
+    padding:27px 66px !important;
+  }
+  #women .container .womenParent .card_txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+/* women section end */
+/* women section start */
+#men{
+  padding: 50px 200px 40px 200px;
+}
+#men .container .womenParent{
+  display: grid;
+  gap:66px;
+  grid-template-columns: repeat(3,1fr);
+} 
+  #men .container h3{
+    font-size: 48px;
+    font-weight: 700;
+    color:var(--basic);
+    margin-bottom: 32px;
+  }
+  #men .container .womenParent .child1{
+    padding:12px 12px 23px 12px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  #men .container .womenParent .child1 h4{
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 17px;
+  }
+  #men .container .womenParent .child1 p{
+    margin-top: 13px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    color:rgb(62, 62, 62);
+  }
+  #men .container .womenParent .child1 h5{
+    font-size: 36px;
+    font-weight: 900;
+    color:var(--barndColor);
+  }
+  #men .container .womenParent .child1 .child2{
+    padding:22px 48px;
+    border-radius: 20px;
+    width: 433px;
+    height: 441px;
+    background: rgb(241, 241, 241);
+  }
+  #men .container .womenParent .child1 .child2 img{
+    height: 100%;
+  }
+  #men .container .womenParent .child1 .img2{
+    padding:27px 66px !important;
+  }
+  #men .container .womenParent .card_txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+/* women section end */
